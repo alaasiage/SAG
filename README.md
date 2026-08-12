@@ -8,39 +8,11 @@ Client scheduling portal for SAG. Securely request or book professional tax and 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Request an Appointment</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            padding: 40px;
-        }
-        .booking-card {
-            max-width: 450px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 40px; }
+        .booking-card { max-width: 450px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         label { display: block; margin-top: 15px; font-weight: bold; color: #444; }
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        button {
-            width: 100%;
-            background-color: #007bff;
-            color: white;
-            padding: 12px;
-            border: none;
-            border-radius: 4px;
-            margin-top: 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
+        input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; background-color: #007bff; color: white; padding: 12px; border: none; border-radius: 4px; margin-top: 20px; font-size: 16px; cursor: pointer; }
         button:hover { background-color: #0056b3; }
     </style>
 </head>
@@ -48,7 +20,7 @@ Client scheduling portal for SAG. Securely request or book professional tax and 
 
     <div class="booking-card">
         <h2>Book a Meeting</h2>
-        <!-- Sign up at Formspree.io to get a unique action URL -->
+        <!-- Replace the URL below with your actual Formspree/Web3Forms URL -->
         <form action="https://formspree.io" method="POST">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" required>
